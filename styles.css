@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* colors bg = #2DCB89 
+        form = #28B67B;
+        fonts= #176D4D;
+
+*/
+
+body {
+  background-color: #2dcb89;
+}
+
+.logo {
+  position: absolute;
+  width: 50px;
+  left: 5%;
+  top: 1%;
+  cursor: pointer;
+}
+
+.menubar a {
+  text-decoration: none;
+  color: #176d4d;
+}
+
+.menubar a :hover {
+  transform: scale(1.1);
+}
+
+.menubar li {
+  display: inline-block;
+  font-family: "Asap", sans-serif;
+  padding: 0 10px;
+  line-height: 65px;
+}
+
+.menubar ul {
+  text-align: right;
+}
+
+.menubar {
+  background-color: #28b67b;
+  font-size: 1.5rem;
+  height: 65px;
+  padding: 0 40px;
+}
+
+.mainform {
+  position: relative;
+  width: 100%;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.mainform .input-box {
+  width: 70%;
+  height: 100%;
+  padding: 3%;
+  border: 0;
+  background-color: #28b67b;
+  color: #176d4d;
+  font-family: "Asap", sans-serif;
+  font-size: 1.2rem;
+  outline-style: none;
+}
+
+.bundle {
+  margin-top: 5%;
+}
+
+.label-text {
+  display: inline-block;
+  padding-bottom: 3%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #176d4d;
+}
+
+.btnsubmit {
+  font-family: "Asap", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-top: 7%;
+  width: 76%;
+  background-color: #176d4d;
+  border: 0;
+  outline-style: none;
+  padding: 4%;
+  color: #28b67b;
+  cursor: pointer;
+}
+
+.secform {
+  margin-bottom: 10%;
+}
+
+.btnsubmit:hover {
+  color: #176d4d;
+  transition: 0.5s;
+  background-color: #28b67b;
+  box-shadow: 6px 6px;
+}
+
+.signuphead {
+  color: #176d4d;
+  font-family: "Krona One", sans-serif;
+  font-size: 5rem;
+  writing-mode: vertical-lr;
+  display: inline;
+  position: relative;
+}
+
+.headcolumn {
+  float: left;
+  width: 8%;
+  padding: 2% 3%;
+}
+
+.orcolumn {
+  float: left;
+  width: 10%;
+  text-align: center;
+}
+
+.formcolumn {
+  float: left;
+  width: 35%;
+}
+
+.orbox {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #28b67b;
+  color: #176d4d;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  line-height: 50px;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+
+.altsignup {
+  color: #176d4d;
+  font-size: 1.5rem;
+  font-family: "Asap", sans-serif;
+}
+
+.altsignup p {
+  font-weight: 700;
+}
+
+.altsignup i {
+  margin: 2%;
+  margin-left: 0;
+}
